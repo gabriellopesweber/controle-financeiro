@@ -1,5 +1,9 @@
 <template>
-  <v-card :class="vCardClass" :max-width="maxWidth">
+  <v-card
+    :class="vCardClass"
+    :max-width="maxWidth"
+    :v-bind="$attrs"
+  >
     <v-layout>
       <v-app-bar :color="appBarColor" density="compact">
         <template v-slot:prepend>

@@ -1,12 +1,14 @@
 <template>
   <v-app>
-    <header-page />
-    <router-view />
+    <v-main>
+      <header-page />
+      <router-view />
+    </v-main>
   </v-app>
 </template>
 
 <script>
-import HeaderPage from '@/views/Header.vue'
+import HeaderPage from '@/views/Header.vue';
 
 export default {
   name: 'App',
